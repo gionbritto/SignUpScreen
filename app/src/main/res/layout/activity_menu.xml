@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.signupscreen.MenuActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2"
+        >
+        <Button
+            android:id="@+id/acessa_tela1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:text="Tela 1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/ripple"
+            android:onClick="acessaTela1"
+            />
+        <Button
+            android:id="@+id/acessa_tela2"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:text="Tela 2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/ripple"
+            android:onClick="acessaTela2"
+            />
+        <Button
+            android:id="@+id/acessa_tela3"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:text="Tela 3"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/ripple"
+            android:onClick="acessaTela3"
+            />
+        <Button
+            android:id="@+id/acessa_tela4"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_columnWeight="1"
+            android:text="Tela 4"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:background="@drawable/ripple"
+            android:onClick="acessaTela4"
+            />
+    </GridLayout>
+
+
+</RelativeLayout>
