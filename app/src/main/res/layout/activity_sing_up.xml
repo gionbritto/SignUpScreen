@@ -70,8 +70,7 @@
                 android:layout_gravity="center_horizontal"
                 android:textSize="12sp"
                 android:background="@drawable/ripple"
-                android:textColor="@color/whitecolor"
-                android:onClick="perfilScreenActionPerformed"/>
+                android:textColor="@color/whitecolor"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
